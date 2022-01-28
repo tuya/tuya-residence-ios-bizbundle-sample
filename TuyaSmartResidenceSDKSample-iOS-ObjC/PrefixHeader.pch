@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  TuyaSmartResidenceSDKSample-iOS-ObjC
+//
+//  Copyright (c) 2014-2021 Tuya Inc. (https://developer.tuya.com/)
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SVProgressHUD.h"
+#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>
+#import "TuyaSmartResidenceMacro.h"
+#import <TuyaSmartResidenceKit/TuyaSmartResidenceKit.h>
+#import <TuyaSmartResidenceKit/TuyaResidenceSiteModel.h>
+#import <TuyaSmartResidenceKit/TuyaResidenceRoomModel.h>
+#import <TuyaSmartResidenceKit/TuyaResidenceSiteMemberModel.h>
+#import <YYModel/YYModel.h>
+#import "Helper.h"
+
+
+#endif /* PrefixHeader_pch */

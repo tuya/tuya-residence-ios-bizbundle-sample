@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="REU-14-JoG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--UID Login Or Register-->
+        <scene sceneID="jfD-li-wAw">
+            <objects>
+                <viewController title="UID Login Or Register" id="REU-14-JoG" customClass="UIDLoginOrRegistViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DU8-YA-4rR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Country Code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nhy-Ip-X4b">
+                                <rect key="frame" x="20" y="74" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EAT-ZO-NA3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UID (Email Address)" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DsS-NP-xYR">
+                                <rect key="frame" x="20" y="139" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="pNR-S2-ni1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fD1-tl-4Ay">
+                                <rect key="frame" x="20" y="344" width="374" height="52"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="qrm-Do-3rY"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login Or Register">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="loginOrRegistAction:" destination="REU-14-JoG" eventType="touchUpInside" id="qdw-HK-lbD"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Auth code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5ZT-ON-Oml">
+                                <rect key="frame" x="20" y="204" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cFJ-1S-jfQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fN5-hQ-i04"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fD1-tl-4Ay" firstAttribute="top" secondItem="5ZT-ON-Oml" secondAttribute="bottom" constant="90" id="4Nx-nX-wBe"/>
+                            <constraint firstItem="nhy-Ip-X4b" firstAttribute="top" secondItem="fN5-hQ-i04" secondAttribute="top" constant="30" id="6EA-zL-Wao"/>
+                            <constraint firstItem="DsS-NP-xYR" firstAttribute="trailing" secondItem="nhy-Ip-X4b" secondAttribute="trailing" id="9P3-dM-u9B"/>
+                            <constraint firstItem="fD1-tl-4Ay" firstAttribute="trailing" secondItem="5ZT-ON-Oml" secondAttribute="trailing" id="Glu-zh-Lvf"/>
+                            <constraint firstItem="5ZT-ON-Oml" firstAttribute="top" secondItem="DsS-NP-xYR" secondAttribute="bottom" constant="15" id="WHV-9m-DSg"/>
+                            <constraint firstItem="fD1-tl-4Ay" firstAttribute="leading" secondItem="5ZT-ON-Oml" secondAttribute="leading" id="Yl0-2X-9EC"/>
+                            <constraint firstItem="DsS-NP-xYR" firstAttribute="leading" secondItem="nhy-Ip-X4b" secondAttribute="leading" id="bjT-ZR-Fs6"/>
+                            <constraint firstItem="fN5-hQ-i04" firstAttribute="trailing" secondItem="nhy-Ip-X4b" secondAttribute="trailing" constant="20" id="cWJ-b8-JTM"/>
+                            <constraint firstItem="DsS-NP-xYR" firstAttribute="top" secondItem="nhy-Ip-X4b" secondAttribute="bottom" constant="15" id="fx0-pu-jXs"/>
+                            <constraint firstItem="nhy-Ip-X4b" firstAttribute="leading" secondItem="DU8-YA-4rR" secondAttribute="leading" constant="20" id="hqX-Hn-0OY"/>
+                            <constraint firstItem="5ZT-ON-Oml" firstAttribute="leading" secondItem="DsS-NP-xYR" secondAttribute="leading" id="k0f-Va-tjQ"/>
+                            <constraint firstItem="5ZT-ON-Oml" firstAttribute="trailing" secondItem="DsS-NP-xYR" secondAttribute="trailing" id="rJj-QA-mic"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Register" id="Xub-9z-8cu"/>
+                    <connections>
+                        <outlet property="authCodeTF" destination="5ZT-ON-Oml" id="1f5-6P-x9H"/>
+                        <outlet property="countryCodeTF" destination="nhy-Ip-X4b" id="inD-2X-w6o"/>
+                        <outlet property="loginBtn" destination="fD1-tl-4Ay" id="LGB-ah-30D"/>
+                        <outlet property="uidTF" destination="DsS-NP-xYR" id="rej-Wm-GmD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AkO-4e-Qhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,95 @@
+{
+    
+    "deviceDetail":[
+        {
+            "type":"c_测试"
+        },
+        {
+            "type":"header"
+        },
+        {
+            "type": "device_info"
+        },
+        {
+            "type": "net_setting"
+        },
+        {
+            "type": "connect_cloud_activation"
+        },
+        {
+            "type":"group_edit_devices"
+        },
+        {
+            "type":"scene_and_automation"
+        },
+        
+        {
+            "type" : "device_evaluation"
+        },
+        
+        {
+            "type":"section_third-party_control"
+        },
+        {
+            "type":"third-party_control"
+        },
+        {
+            "type":"section_off_line_warn"
+        },
+        {
+            "type":"off_line_warn"
+        },
+        {
+            "type":"section_other"
+        },
+        {
+            "type":"device_from"
+        },
+        {
+            "type":"bind_multi_control_link"
+        },
+        {
+            "type":"sync_control"
+        },
+        {
+            "type":"panel_share_group_or_device"
+        },
+        {
+            "type":"group_create"
+        },
+        {
+            "type":"link_device"
+        },
+        {
+            "type":"help_and_feedback"
+        },
+        {
+            "type":"add_icon_to_home_screen"
+        },
+        {
+            "type":"show_infrared_gateway_sub_device"
+        },
+        {
+            "type":"music_preview"
+        },
+        {
+            "type":"device_add_to_family"
+        },
+        {
+            "type":"check_device_network"
+        },
+        {
+            "type":"check_firmware_update"
+        },
+        {
+            "type":"sub_device_migrate"
+        },
+        {
+            "type":"empty",
+            "height":16
+        },
+        {
+            "type":"footer"
+        }
+    ]
+}

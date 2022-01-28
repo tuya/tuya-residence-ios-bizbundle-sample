@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1300"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9FF3AD0F2727A82000C7A2DF"
+               BuildableName = "TuyaSmartResidenceSDKSample-iOS-ObjC.app"
+               BlueprintName = "TuyaSmartResidenceSDKSample-iOS-ObjC"
+               ReferencedContainer = "container:TuyaSmartResidenceSDKSample-iOS-ObjC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9FF3AD2A2727A82200C7A2DF"
+               BuildableName = "TuyaSmartResidenceSDKSample-iOS-ObjCTests.xctest"
+               BlueprintName = "TuyaSmartResidenceSDKSample-iOS-ObjCTests"
+               ReferencedContainer = "container:TuyaSmartResidenceSDKSample-iOS-ObjC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9FF3AD342727A82200C7A2DF"
+               BuildableName = "TuyaSmartResidenceSDKSample-iOS-ObjCUITests.xctest"
+               BlueprintName = "TuyaSmartResidenceSDKSample-iOS-ObjCUITests"
+               ReferencedContainer = "container:TuyaSmartResidenceSDKSample-iOS-ObjC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FF3AD0F2727A82000C7A2DF"
+            BuildableName = "TuyaSmartResidenceSDKSample-iOS-ObjC.app"
+            BlueprintName = "TuyaSmartResidenceSDKSample-iOS-ObjC"
+            ReferencedContainer = "container:TuyaSmartResidenceSDKSample-iOS-ObjC.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FF3AD0F2727A82000C7A2DF"
+            BuildableName = "TuyaSmartResidenceSDKSample-iOS-ObjC.app"
+            BlueprintName = "TuyaSmartResidenceSDKSample-iOS-ObjC"
+            ReferencedContainer = "container:TuyaSmartResidenceSDKSample-iOS-ObjC.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

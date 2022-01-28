@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ceO-Cf-xEU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Register-->
+        <scene sceneID="7CD-cf-6zX">
+            <objects>
+                <viewController title="Register" id="ceO-Cf-xEU" customClass="RegisterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sb5-eR-4Z4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Country Code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Pmx-ve-aet">
+                                <rect key="frame" x="20" y="74" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4KK-Wk-S5x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="KDG-EJ-ONg">
+                                <rect key="frame" x="20" y="139" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Vv3-Dh-iUr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ItW-fF-pKs">
+                                <rect key="frame" x="20" y="269" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HSG-xb-gif"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oot-9P-SmO">
+                                <rect key="frame" x="20" y="409" width="374" height="52"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Bya-BD-dX7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Register">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="registerClick:" destination="ceO-Cf-xEU" eventType="touchUpInside" id="vGG-eb-lod"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Verification Code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EE4-AQ-Sb5">
+                                <rect key="frame" x="20" y="204" width="202" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MC8-Eq-ksX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" textContentType="one-time-code"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="298-R2-DV4">
+                                <rect key="frame" x="237" y="203" width="157" height="52"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="j8r-bK-siz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Send Verification Code">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="12"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="codeClick:" destination="ceO-Cf-xEU" eventType="touchUpInside" id="dnf-XX-zWZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9wB-kS-TgX"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ItW-fF-pKs" firstAttribute="top" secondItem="EE4-AQ-Sb5" secondAttribute="bottom" constant="15" id="6rE-lI-SGL"/>
+                            <constraint firstItem="EE4-AQ-Sb5" firstAttribute="leading" secondItem="KDG-EJ-ONg" secondAttribute="leading" id="IMi-i2-U7Q"/>
+                            <constraint firstItem="ItW-fF-pKs" firstAttribute="leading" secondItem="KDG-EJ-ONg" secondAttribute="leading" id="Vaz-5q-fbr"/>
+                            <constraint firstItem="9wB-kS-TgX" firstAttribute="trailing" secondItem="Pmx-ve-aet" secondAttribute="trailing" constant="20" id="cyv-6k-hpx"/>
+                            <constraint firstItem="KDG-EJ-ONg" firstAttribute="top" secondItem="Pmx-ve-aet" secondAttribute="bottom" constant="15" id="exu-TZ-UkJ"/>
+                            <constraint firstItem="ItW-fF-pKs" firstAttribute="trailing" secondItem="KDG-EJ-ONg" secondAttribute="trailing" id="fjj-p2-te8"/>
+                            <constraint firstItem="298-R2-DV4" firstAttribute="trailing" secondItem="KDG-EJ-ONg" secondAttribute="trailing" id="h4T-Xe-qG0"/>
+                            <constraint firstItem="KDG-EJ-ONg" firstAttribute="leading" secondItem="Pmx-ve-aet" secondAttribute="leading" id="ieW-nL-tY1"/>
+                            <constraint firstItem="298-R2-DV4" firstAttribute="leading" secondItem="EE4-AQ-Sb5" secondAttribute="trailing" constant="15" id="j6M-i7-vWS"/>
+                            <constraint firstItem="EE4-AQ-Sb5" firstAttribute="top" secondItem="KDG-EJ-ONg" secondAttribute="bottom" constant="15" id="mt5-3P-mda"/>
+                            <constraint firstItem="Pmx-ve-aet" firstAttribute="top" secondItem="9wB-kS-TgX" secondAttribute="top" constant="30" id="pdf-YZ-SJg"/>
+                            <constraint firstItem="298-R2-DV4" firstAttribute="centerY" secondItem="EE4-AQ-Sb5" secondAttribute="centerY" id="qxN-aO-VLD"/>
+                            <constraint firstItem="oot-9P-SmO" firstAttribute="leading" secondItem="ItW-fF-pKs" secondAttribute="leading" id="rWh-yA-WXl"/>
+                            <constraint firstItem="Pmx-ve-aet" firstAttribute="leading" secondItem="Sb5-eR-4Z4" secondAttribute="leading" constant="20" id="sQ2-Wi-MpL"/>
+                            <constraint firstItem="oot-9P-SmO" firstAttribute="top" secondItem="ItW-fF-pKs" secondAttribute="bottom" constant="90" id="u0e-dn-drF"/>
+                            <constraint firstItem="KDG-EJ-ONg" firstAttribute="trailing" secondItem="Pmx-ve-aet" secondAttribute="trailing" id="y8t-tb-qUr"/>
+                            <constraint firstItem="oot-9P-SmO" firstAttribute="trailing" secondItem="ItW-fF-pKs" secondAttribute="trailing" id="yHY-5v-Ru9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Register" id="cxg-s8-Nsj"/>
+                    <connections>
+                        <outlet property="accountTF" destination="KDG-EJ-ONg" id="1SC-4I-xKB"/>
+                        <outlet property="codeTF" destination="EE4-AQ-Sb5" id="pzM-Sz-bZr"/>
+                        <outlet property="countryCodeTF" destination="Pmx-ve-aet" id="e4V-4J-GAi"/>
+                        <outlet property="passwordTF" destination="ItW-fF-pKs" id="L0u-VS-6X2"/>
+                        <outlet property="registerBtn" destination="oot-9P-SmO" id="i7W-nW-3W1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adW-Z9-LT5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079.7101449275362" y="425.89285714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cWJ-iQ-KJz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="gJ0-or-iNn">
+            <objects>
+                <navigationController id="cWJ-iQ-KJz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B0u-oj-5ou">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="e8e-H6-xhf" kind="relationship" relationship="rootViewController" id="uYc-TR-F3f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkt-AV-Ccu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-491" y="80"/>
+        </scene>
+        <!--TuyaSmartResidenceSDKSample-->
+        <scene sceneID="4TA-wH-oKq">
+            <objects>
+                <viewController id="e8e-H6-xhf" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rob-bK-n6c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BId-Qa-aPM">
+                                <rect key="frame" x="20" y="350" width="374" height="196"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcB-ht-Plz">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="52"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="x1O-GS-m1w"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Login">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dIy-wX-BOp" kind="show" id="u1f-Y7-mRP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQU-Tq-fIz">
+                                        <rect key="frame" x="0.0" y="72" width="374" height="52"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Register">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="bIo-D9-uOh" kind="show" id="txJ-GZ-JsK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iev-0B-57m">
+                                        <rect key="frame" x="0.0" y="144" width="374" height="52"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="XqD-oU-UgQ"/>
+                                            <constraint firstAttribute="height" constant="52" id="yrX-Zm-GGu"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="UID Login or Register">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="evQ-5z-eve" kind="show" id="OnU-R9-Sdc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="iev-0B-57m" firstAttribute="top" secondItem="KQU-Tq-fIz" secondAttribute="bottom" constant="20" id="7rC-6j-8DK"/>
+                                    <constraint firstItem="DcB-ht-Plz" firstAttribute="leading" secondItem="BId-Qa-aPM" secondAttribute="leading" id="K5z-eA-mfD"/>
+                                    <constraint firstAttribute="trailing" secondItem="DcB-ht-Plz" secondAttribute="trailing" id="RL3-nE-SJL"/>
+                                    <constraint firstItem="KQU-Tq-fIz" firstAttribute="height" secondItem="DcB-ht-Plz" secondAttribute="height" id="XDg-oA-e9U"/>
+                                    <constraint firstItem="KQU-Tq-fIz" firstAttribute="width" secondItem="DcB-ht-Plz" secondAttribute="width" id="nhH-yn-JNW"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1If-fn-LiR"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BId-Qa-aPM" firstAttribute="leading" secondItem="1If-fn-LiR" secondAttribute="leading" constant="20" id="1km-Yg-BoS"/>
+                            <constraint firstItem="1If-fn-LiR" firstAttribute="trailing" secondItem="BId-Qa-aPM" secondAttribute="trailing" constant="20" id="JVM-Jv-lQF"/>
+                            <constraint firstItem="BId-Qa-aPM" firstAttribute="centerX" secondItem="rob-bK-n6c" secondAttribute="centerX" id="lAj-yN-NM8"/>
+                            <constraint firstItem="BId-Qa-aPM" firstAttribute="centerY" secondItem="rob-bK-n6c" secondAttribute="centerY" id="lJ1-vk-KfY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="TuyaSmartResidenceSDKSample" id="pDs-M3-xs6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h6h-8y-Zjf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282.60869565217394" y="79.6875"/>
+        </scene>
+        <!--UIDLoginOrRegist-->
+        <scene sceneID="kk7-eY-4Sb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UIDLoginOrRegist" id="evQ-5z-eve" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QE8-X2-uRS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dWA-2C-EaF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="197"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="iDz-SL-MAq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" id="bIo-D9-uOh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nTA-YY-3IM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KGS-eO-aqG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879" y="96"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="Tk3-zx-g3K">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="dIy-wX-BOp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7f9-5w-7uK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tEi-Wa-ZPj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866" y="-33"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

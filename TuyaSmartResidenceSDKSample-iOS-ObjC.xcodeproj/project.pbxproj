@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5FB37078FBDDA578D02FE9 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC76ECFED6BF2DECB45A75E /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.a */; };
+		4D14F6A3F2D9DE0366F6C538 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35081E83BA87BB65DE087D96 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC.a */; };
+		6791EBD6F0A8A9DC81EE40D8 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791AFCDADE16508908D69AC8 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.a */; };
+		9F579FF2273BB9CB00E6C610 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F579FF1273BB9CA00E6C610 /* Helper.m */; };
+		9FB11236272B91E1000476C0 /* AddMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB11235272B91E1000476C0 /* AddMemberViewController.m */; };
+		9FB11239272B9ED7000476C0 /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB11238272B9ED7000476C0 /* DeviceListViewController.m */; };
+		9FBB9F2D2732393C002187D3 /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB9F2C2732393C002187D3 /* t_s.bmp */; };
+		9FBB9F2F2732717E002187D3 /* Access.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBB9F2E2732717E002187D3 /* Access.storyboard */; };
+		9FBB9F3327328700002187D3 /* AddAppAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB9F32273286FF002187D3 /* AddAppAccessViewController.m */; };
+		9FD9F73927350AA6002AED45 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9F73827350AA6002AED45 /* QueryViewController.m */; };
+		9FE7375D273A69B2006A3D3B /* FetchExpiredListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7375C273A69B2006A3D3B /* FetchExpiredListViewController.m */; };
+		9FECD737272A814B003F547B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECD736272A814B003F547B /* Login.storyboard */; };
+		9FECD73A272A8195003F547B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECD738272A8195003F547B /* Main.storyboard */; };
+		9FECD73C272A8212003F547B /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECD73B272A8212003F547B /* Register.storyboard */; };
+		9FECD73E272A8255003F547B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECD73D272A8255003F547B /* Home.storyboard */; };
+		9FECD746272A87D3003F547B /* CreateSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD745272A87D3003F547B /* CreateSiteViewController.m */; };
+		9FECD748272A87F3003F547B /* Site.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECD747272A87F3003F547B /* Site.storyboard */; };
+		9FECD74E272A88B1003F547B /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD74D272A88B1003F547B /* HomeTableViewController.m */; };
+		9FECD751272A89C8003F547B /* CurrentSiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD750272A89C8003F547B /* CurrentSiteTableViewController.m */; };
+		9FECD754272A8AE3003F547B /* SiteListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD753272A8AE3003F547B /* SiteListTableViewController.m */; };
+		9FECD75E272A96C9003F547B /* ModifySiteInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD75D272A96C9003F547B /* ModifySiteInformationViewController.m */; };
+		9FECD760272ABC65003F547B /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECD75F272ABC65003F547B /* User.storyboard */; };
+		9FECD768272ABF0B003F547B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD763272ABF0B003F547B /* LoginViewController.m */; };
+		9FECD769272ABF0B003F547B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD764272ABF0B003F547B /* RegisterViewController.m */; };
+		9FECD76A272ABF0B003F547B /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD766272ABF0B003F547B /* ResetViewController.m */; };
+		9FECD76D272ABF3B003F547B /* UserInformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FECD76C272ABF3B003F547B /* UserInformationTableViewController.m */; };
+		9FF3AD152727A82000C7A2DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3AD142727A82000C7A2DF /* AppDelegate.m */; };
+		9FF3AD202727A82200C7A2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF3AD1F2727A82200C7A2DF /* Assets.xcassets */; };
+		9FF3AD262727A82200C7A2DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3AD252727A82200C7A2DF /* main.m */; };
+		9FF3AD302727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3AD2F2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCTests.m */; };
+		9FF3AD3A2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3AD392727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITests.m */; };
+		9FF3AD3C2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3AD3B2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITestsLaunchTests.m */; };
+		9FF3AD4D2727A8C000C7A2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF3AD492727A8C000C7A2DF /* LaunchScreen.storyboard */; };
+		9FF3AD5D2727ADCD00C7A2DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3AD5C2727ADCD00C7A2DF /* ViewController.m */; };
+		9FFC44FF273373DB003D7719 /* AddPasswordAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC44FE273373DB003D7719 /* AddPasswordAccessViewController.m */; };
+		BB139FAE2797DAC400047CD8 /* ty_custom_config.json in Resources */ = {isa = PBXBuildFile; fileRef = BB139FAD2797DAC400047CD8 /* ty_custom_config.json */; };
+		BB25BE9E27869819001D08A1 /* BizBundleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB25BE9D27869819001D08A1 /* BizBundleTableViewController.m */; };
+		BB25BEA027869846001D08A1 /* BizBundle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB25BE9F27869846001D08A1 /* BizBundle.storyboard */; };
+		BB392A7C279015B10023CD75 /* UIDLoginOrRegist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB392A7B279015B00023CD75 /* UIDLoginOrRegist.storyboard */; };
+		BB392A7F279019400023CD75 /* UIDLoginOrRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB392A7E279019400023CD75 /* UIDLoginOrRegistViewController.m */; };
+		BB65BAD62738F9EA00666D2C /* SiteInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB65BAD52738F9EA00666D2C /* SiteInfoTableViewController.m */; };
+		BBA984632771805900DCDCD6 /* configList.json in Resources */ = {isa = PBXBuildFile; fileRef = BBA984622771805900DCDCD6 /* configList.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FF3AD2C2727A82200C7A2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF3AD082727A82000C7A2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF3AD0F2727A82000C7A2DF;
+			remoteInfo = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+		};
+		9FF3AD362727A82200C7A2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF3AD082727A82000C7A2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF3AD0F2727A82000C7A2DF;
+			remoteInfo = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0111FBB9DB90F73A4D6B9E55 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.debug.xcconfig"; path = "Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		038D0C5BA253CEF3D6E45172 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.debug.xcconfig"; path = "Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		2AC76ECFED6BF2DECB45A75E /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35081E83BA87BB65DE087D96 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartResidenceSDKSample-iOS-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BBA6C3C9EFFA6BE8526899 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		791AFCDADE16508908D69AC8 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9409FBDADF34BDAC873A20B4 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.debug.xcconfig"; path = "Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F579FF0273BB9CA00E6C610 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		9F579FF1273BB9CA00E6C610 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		9FB11230272B868D000476C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9FB11232272B8696000476C0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9FB11234272B91E1000476C0 /* AddMemberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddMemberViewController.h; sourceTree = "<group>"; };
+		9FB11235272B91E1000476C0 /* AddMemberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddMemberViewController.m; sourceTree = "<group>"; };
+		9FB11237272B9ED7000476C0 /* DeviceListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
+		9FB11238272B9ED7000476C0 /* DeviceListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
+		9FBB9F2C2732393C002187D3 /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
+		9FBB9F2E2732717E002187D3 /* Access.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Access.storyboard; sourceTree = "<group>"; };
+		9FBB9F31273286FF002187D3 /* AddAppAccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddAppAccessViewController.h; sourceTree = "<group>"; };
+		9FBB9F32273286FF002187D3 /* AddAppAccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddAppAccessViewController.m; sourceTree = "<group>"; };
+		9FD9F73727350AA6002AED45 /* QueryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		9FD9F73827350AA6002AED45 /* QueryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		9FE7375B273A69B2006A3D3B /* FetchExpiredListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FetchExpiredListViewController.h; sourceTree = "<group>"; };
+		9FE7375C273A69B2006A3D3B /* FetchExpiredListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchExpiredListViewController.m; sourceTree = "<group>"; };
+		9FECD736272A814B003F547B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9FECD739272A8195003F547B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FECD73B272A8212003F547B /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		9FECD73D272A8255003F547B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9FECD744272A87D3003F547B /* CreateSiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateSiteViewController.h; sourceTree = "<group>"; };
+		9FECD745272A87D3003F547B /* CreateSiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateSiteViewController.m; sourceTree = "<group>"; };
+		9FECD747272A87F3003F547B /* Site.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Site.storyboard; sourceTree = "<group>"; };
+		9FECD74C272A88B1003F547B /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		9FECD74D272A88B1003F547B /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		9FECD74F272A89C8003F547B /* CurrentSiteTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentSiteTableViewController.h; sourceTree = "<group>"; };
+		9FECD750272A89C8003F547B /* CurrentSiteTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentSiteTableViewController.m; sourceTree = "<group>"; };
+		9FECD752272A8AE3003F547B /* SiteListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteListTableViewController.h; sourceTree = "<group>"; };
+		9FECD753272A8AE3003F547B /* SiteListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiteListTableViewController.m; sourceTree = "<group>"; };
+		9FECD75C272A96C9003F547B /* ModifySiteInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifySiteInformationViewController.h; sourceTree = "<group>"; };
+		9FECD75D272A96C9003F547B /* ModifySiteInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifySiteInformationViewController.m; sourceTree = "<group>"; };
+		9FECD75F272ABC65003F547B /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		9FECD762272ABF0B003F547B /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		9FECD763272ABF0B003F547B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9FECD764272ABF0B003F547B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9FECD765272ABF0B003F547B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9FECD766272ABF0B003F547B /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		9FECD767272ABF0B003F547B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9FECD76B272ABF3B003F547B /* UserInformationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInformationTableViewController.h; sourceTree = "<group>"; };
+		9FECD76C272ABF3B003F547B /* UserInformationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInformationTableViewController.m; sourceTree = "<group>"; };
+		9FF3AD102727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuyaSmartResidenceSDKSample-iOS-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF3AD132727A82000C7A2DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FF3AD142727A82000C7A2DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FF3AD1F2727A82200C7A2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF3AD242727A82200C7A2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF3AD252727A82200C7A2DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FF3AD2B2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TuyaSmartResidenceSDKSample-iOS-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF3AD2F2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaSmartResidenceSDKSample_iOS_ObjCTests.m; sourceTree = "<group>"; };
+		9FF3AD352727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TuyaSmartResidenceSDKSample-iOS-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF3AD392727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaSmartResidenceSDKSample_iOS_ObjCUITests.m; sourceTree = "<group>"; };
+		9FF3AD3B2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuyaSmartResidenceSDKSample_iOS_ObjCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9FF3AD4A2727A8C000C7A2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF3AD5A2727AD3500C7A2DF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9FF3AD5B2727ADCD00C7A2DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FF3AD5C2727ADCD00C7A2DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FFC44FD273373DB003D7719 /* AddPasswordAccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPasswordAccessViewController.h; sourceTree = "<group>"; };
+		9FFC44FE273373DB003D7719 /* AddPasswordAccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPasswordAccessViewController.m; sourceTree = "<group>"; };
+		A80C17BBAC6EB9E1A613E279 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB139FAD2797DAC400047CD8 /* ty_custom_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ty_custom_config.json; sourceTree = "<group>"; };
+		BB25BE9C27869819001D08A1 /* BizBundleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BizBundleTableViewController.h; sourceTree = "<group>"; };
+		BB25BE9D27869819001D08A1 /* BizBundleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BizBundleTableViewController.m; sourceTree = "<group>"; };
+		BB25BE9F27869846001D08A1 /* BizBundle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BizBundle.storyboard; sourceTree = "<group>"; };
+		BB2E6C442755D2FA00A78C36 /* TuyaSmartResidenceMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuyaSmartResidenceMacro.h; sourceTree = "<group>"; };
+		BB392A7B279015B00023CD75 /* UIDLoginOrRegist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIDLoginOrRegist.storyboard; sourceTree = "<group>"; };
+		BB392A7D2790193F0023CD75 /* UIDLoginOrRegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDLoginOrRegistViewController.h; sourceTree = "<group>"; };
+		BB392A7E279019400023CD75 /* UIDLoginOrRegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDLoginOrRegistViewController.m; sourceTree = "<group>"; };
+		BB65BAD42738F9EA00666D2C /* SiteInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteInfoTableViewController.h; sourceTree = "<group>"; };
+		BB65BAD52738F9EA00666D2C /* SiteInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiteInfoTableViewController.m; sourceTree = "<group>"; };
+		BBA984622771805900DCDCD6 /* configList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configList.json; sourceTree = "<group>"; };
+		ED65E6FF44E10961CF8A97A2 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF3AD0D2727A82000C7A2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D14F6A3F2D9DE0366F6C538 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF3AD282727A82200C7A2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6791EBD6F0A8A9DC81EE40D8 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF3AD322727A82200C7A2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5FB37078FBDDA578D02FE9 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27922BADB50C9BC5698C5ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				038D0C5BA253CEF3D6E45172 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.debug.xcconfig */,
+				71BBA6C3C9EFFA6BE8526899 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.release.xcconfig */,
+				9409FBDADF34BDAC873A20B4 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.debug.xcconfig */,
+				ED65E6FF44E10961CF8A97A2 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.release.xcconfig */,
+				0111FBB9DB90F73A4D6B9E55 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.debug.xcconfig */,
+				A80C17BBAC6EB9E1A613E279 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F5DE76F6A4070F40434FA33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FB11232272B8696000476C0 /* MobileCoreServices.framework */,
+				9FB11230272B868D000476C0 /* AVFoundation.framework */,
+				35081E83BA87BB65DE087D96 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC.a */,
+				2AC76ECFED6BF2DECB45A75E /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.a */,
+				791AFCDADE16508908D69AC8 /* libPods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FBB9F30273286E8002187D3 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				9FBB9F31273286FF002187D3 /* AddAppAccessViewController.h */,
+				9FBB9F32273286FF002187D3 /* AddAppAccessViewController.m */,
+				9FFC44FD273373DB003D7719 /* AddPasswordAccessViewController.h */,
+				9FFC44FE273373DB003D7719 /* AddPasswordAccessViewController.m */,
+			);
+			path = Access;
+			sourceTree = "<group>";
+		};
+		9FECD73F272A827E003F547B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9FECD74C272A88B1003F547B /* HomeTableViewController.h */,
+				9FECD74D272A88B1003F547B /* HomeTableViewController.m */,
+				9FD9F73727350AA6002AED45 /* QueryViewController.h */,
+				9FD9F73827350AA6002AED45 /* QueryViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9FECD743272A87C0003F547B /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				9FECD744272A87D3003F547B /* CreateSiteViewController.h */,
+				9FECD745272A87D3003F547B /* CreateSiteViewController.m */,
+				9FECD74F272A89C8003F547B /* CurrentSiteTableViewController.h */,
+				9FECD750272A89C8003F547B /* CurrentSiteTableViewController.m */,
+				9FECD752272A8AE3003F547B /* SiteListTableViewController.h */,
+				9FECD753272A8AE3003F547B /* SiteListTableViewController.m */,
+				BB65BAD42738F9EA00666D2C /* SiteInfoTableViewController.h */,
+				BB65BAD52738F9EA00666D2C /* SiteInfoTableViewController.m */,
+				9FECD75C272A96C9003F547B /* ModifySiteInformationViewController.h */,
+				9FECD75D272A96C9003F547B /* ModifySiteInformationViewController.m */,
+				9FB11234272B91E1000476C0 /* AddMemberViewController.h */,
+				9FB11235272B91E1000476C0 /* AddMemberViewController.m */,
+				9FB11237272B9ED7000476C0 /* DeviceListViewController.h */,
+				9FB11238272B9ED7000476C0 /* DeviceListViewController.m */,
+				9FE7375B273A69B2006A3D3B /* FetchExpiredListViewController.h */,
+				9FE7375C273A69B2006A3D3B /* FetchExpiredListViewController.m */,
+			);
+			path = Site;
+			sourceTree = "<group>";
+		};
+		9FECD755272A8F16003F547B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E6C3C2755D29A00A78C36 /* Foundation */,
+				9F579FF0273BB9CA00E6C610 /* Helper.h */,
+				9F579FF1273BB9CA00E6C610 /* Helper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9FECD761272ABF0B003F547B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9FECD762272ABF0B003F547B /* ResetViewController.h */,
+				9FECD766272ABF0B003F547B /* ResetViewController.m */,
+				9FECD765272ABF0B003F547B /* LoginViewController.h */,
+				9FECD763272ABF0B003F547B /* LoginViewController.m */,
+				9FECD767272ABF0B003F547B /* RegisterViewController.h */,
+				9FECD764272ABF0B003F547B /* RegisterViewController.m */,
+				BB392A7D2790193F0023CD75 /* UIDLoginOrRegistViewController.h */,
+				BB392A7E279019400023CD75 /* UIDLoginOrRegistViewController.m */,
+				9FECD76B272ABF3B003F547B /* UserInformationTableViewController.h */,
+				9FECD76C272ABF3B003F547B /* UserInformationTableViewController.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		9FF3AD072727A82000C7A2DF = {
+			isa = PBXGroup;
+			children = (
+				9FF3AD122727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC */,
+				9FF3AD2E2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests */,
+				9FF3AD382727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests */,
+				9FF3AD112727A82000C7A2DF /* Products */,
+				27922BADB50C9BC5698C5ED6 /* Pods */,
+				3F5DE76F6A4070F40434FA33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF3AD112727A82000C7A2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF3AD102727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC.app */,
+				9FF3AD2B2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests.xctest */,
+				9FF3AD352727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FF3AD122727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				9FF3AD482727A8C000C7A2DF /* StoryBoard */,
+				9FF3AD4F2727ACA300C7A2DF /* ViewController */,
+				9FECD755272A8F16003F547B /* Utils */,
+				9FF3AD132727A82000C7A2DF /* AppDelegate.h */,
+				9FF3AD142727A82000C7A2DF /* AppDelegate.m */,
+				BBA984622771805900DCDCD6 /* configList.json */,
+				BB139FAD2797DAC400047CD8 /* ty_custom_config.json */,
+				9FF3AD1F2727A82200C7A2DF /* Assets.xcassets */,
+				9FF3AD242727A82200C7A2DF /* Info.plist */,
+				9FBB9F2C2732393C002187D3 /* t_s.bmp */,
+				9FF3AD252727A82200C7A2DF /* main.m */,
+				9FF3AD5A2727AD3500C7A2DF /* PrefixHeader.pch */,
+				9FF3AD5B2727ADCD00C7A2DF /* ViewController.h */,
+				9FF3AD5C2727ADCD00C7A2DF /* ViewController.m */,
+			);
+			path = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+			sourceTree = "<group>";
+		};
+		9FF3AD2E2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF3AD2F2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCTests.m */,
+			);
+			path = "TuyaSmartResidenceSDKSample-iOS-ObjCTests";
+			sourceTree = "<group>";
+		};
+		9FF3AD382727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF3AD392727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITests.m */,
+				9FF3AD3B2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITestsLaunchTests.m */,
+			);
+			path = "TuyaSmartResidenceSDKSample-iOS-ObjCUITests";
+			sourceTree = "<group>";
+		};
+		9FF3AD482727A8C000C7A2DF /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9FECD738272A8195003F547B /* Main.storyboard */,
+				9FF3AD492727A8C000C7A2DF /* LaunchScreen.storyboard */,
+				9FECD736272A814B003F547B /* Login.storyboard */,
+				9FECD73B272A8212003F547B /* Register.storyboard */,
+				BB392A7B279015B00023CD75 /* UIDLoginOrRegist.storyboard */,
+				9FECD73D272A8255003F547B /* Home.storyboard */,
+				9FECD747272A87F3003F547B /* Site.storyboard */,
+				9FECD75F272ABC65003F547B /* User.storyboard */,
+				9FBB9F2E2732717E002187D3 /* Access.storyboard */,
+				BB25BE9F27869846001D08A1 /* BizBundle.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		9FF3AD4F2727ACA300C7A2DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9FBB9F30273286E8002187D3 /* Access */,
+				9FECD743272A87C0003F547B /* Site */,
+				9FECD73F272A827E003F547B /* Home */,
+				9FECD761272ABF0B003F547B /* User */,
+				BB25BE8727867EFD001D08A1 /* BizBundle */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB25BE8727867EFD001D08A1 /* BizBundle */ = {
+			isa = PBXGroup;
+			children = (
+				BB25BE9C27869819001D08A1 /* BizBundleTableViewController.h */,
+				BB25BE9D27869819001D08A1 /* BizBundleTableViewController.m */,
+			);
+			path = BizBundle;
+			sourceTree = "<group>";
+		};
+		BB2E6C3C2755D29A00A78C36 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E6C442755D2FA00A78C36 /* TuyaSmartResidenceMacro.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF3AD0F2727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF3AD3F2727A82200C7A2DF /* Build configuration list for PBXNativeTarget "TuyaSmartResidenceSDKSample-iOS-ObjC" */;
+			buildPhases = (
+				A23C4C0BD2EE4FD318FB309F /* [CP] Check Pods Manifest.lock */,
+				9FF3AD0C2727A82000C7A2DF /* Sources */,
+				9FF3AD0D2727A82000C7A2DF /* Frameworks */,
+				9FF3AD0E2727A82000C7A2DF /* Resources */,
+				159C73F673E8F26A874947D0 /* [CP] Copy Pods Resources */,
+				1EDC2E8EEBF5B7678C1AA88A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+			productName = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+			productReference = 9FF3AD102727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FF3AD2A2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF3AD422727A82200C7A2DF /* Build configuration list for PBXNativeTarget "TuyaSmartResidenceSDKSample-iOS-ObjCTests" */;
+			buildPhases = (
+				910DD9ACD70E3FB2A7ED6679 /* [CP] Check Pods Manifest.lock */,
+				9FF3AD272727A82200C7A2DF /* Sources */,
+				9FF3AD282727A82200C7A2DF /* Frameworks */,
+				9FF3AD292727A82200C7A2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF3AD2D2727A82200C7A2DF /* PBXTargetDependency */,
+			);
+			name = "TuyaSmartResidenceSDKSample-iOS-ObjCTests";
+			productName = "TuyaSmartResidenceSDKSample-iOS-ObjCTests";
+			productReference = 9FF3AD2B2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FF3AD342727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF3AD452727A82200C7A2DF /* Build configuration list for PBXNativeTarget "TuyaSmartResidenceSDKSample-iOS-ObjCUITests" */;
+			buildPhases = (
+				8AFF86C5A208C5E62E25F9EA /* [CP] Check Pods Manifest.lock */,
+				9FF3AD312727A82200C7A2DF /* Sources */,
+				9FF3AD322727A82200C7A2DF /* Frameworks */,
+				9FF3AD332727A82200C7A2DF /* Resources */,
+				ED0617E47FCE330B60BA9312 /* [CP] Copy Pods Resources */,
+				A46F1C2B013AC5F53D739FA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF3AD372727A82200C7A2DF /* PBXTargetDependency */,
+			);
+			name = "TuyaSmartResidenceSDKSample-iOS-ObjCUITests";
+			productName = "TuyaSmartResidenceSDKSample-iOS-ObjCUITests";
+			productReference = 9FF3AD352727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF3AD082727A82000C7A2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9FF3AD0F2727A82000C7A2DF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9FF3AD2A2727A82200C7A2DF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9FF3AD0F2727A82000C7A2DF;
+					};
+					9FF3AD342727A82200C7A2DF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9FF3AD0F2727A82000C7A2DF;
+					};
+				};
+			};
+			buildConfigurationList = 9FF3AD0B2727A82000C7A2DF /* Build configuration list for PBXProject "TuyaSmartResidenceSDKSample-iOS-ObjC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF3AD072727A82000C7A2DF;
+			productRefGroup = 9FF3AD112727A82000C7A2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF3AD0F2727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC */,
+				9FF3AD2A2727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCTests */,
+				9FF3AD342727A82200C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF3AD0E2727A82000C7A2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECD737272A814B003F547B /* Login.storyboard in Resources */,
+				9FF3AD4D2727A8C000C7A2DF /* LaunchScreen.storyboard in Resources */,
+				BB25BEA027869846001D08A1 /* BizBundle.storyboard in Resources */,
+				9FF3AD202727A82200C7A2DF /* Assets.xcassets in Resources */,
+				9FECD748272A87F3003F547B /* Site.storyboard in Resources */,
+				BBA984632771805900DCDCD6 /* configList.json in Resources */,
+				9FBB9F2F2732717E002187D3 /* Access.storyboard in Resources */,
+				9FECD73E272A8255003F547B /* Home.storyboard in Resources */,
+				BB392A7C279015B10023CD75 /* UIDLoginOrRegist.storyboard in Resources */,
+				9FECD760272ABC65003F547B /* User.storyboard in Resources */,
+				9FBB9F2D2732393C002187D3 /* t_s.bmp in Resources */,
+				9FECD73A272A8195003F547B /* Main.storyboard in Resources */,
+				9FECD73C272A8212003F547B /* Register.storyboard in Resources */,
+				BB139FAE2797DAC400047CD8 /* ty_custom_config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF3AD292727A82200C7A2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF3AD332727A82200C7A2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159C73F673E8F26A874947D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EDC2E8EEBF5B7678C1AA88A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFF86C5A208C5E62E25F9EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910DD9ACD70E3FB2A7ED6679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23C4C0BD2EE4FD318FB309F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46F1C2B013AC5F53D739FA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0617E47FCE330B60BA9312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests/Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF3AD0C2727A82000C7A2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB11239272B9ED7000476C0 /* DeviceListViewController.m in Sources */,
+				9FFC44FF273373DB003D7719 /* AddPasswordAccessViewController.m in Sources */,
+				9FD9F73927350AA6002AED45 /* QueryViewController.m in Sources */,
+				9FECD76D272ABF3B003F547B /* UserInformationTableViewController.m in Sources */,
+				9F579FF2273BB9CB00E6C610 /* Helper.m in Sources */,
+				9FF3AD5D2727ADCD00C7A2DF /* ViewController.m in Sources */,
+				9FECD751272A89C8003F547B /* CurrentSiteTableViewController.m in Sources */,
+				9FECD746272A87D3003F547B /* CreateSiteViewController.m in Sources */,
+				9FECD75E272A96C9003F547B /* ModifySiteInformationViewController.m in Sources */,
+				9FB11236272B91E1000476C0 /* AddMemberViewController.m in Sources */,
+				9FECD754272A8AE3003F547B /* SiteListTableViewController.m in Sources */,
+				9FECD74E272A88B1003F547B /* HomeTableViewController.m in Sources */,
+				9FE7375D273A69B2006A3D3B /* FetchExpiredListViewController.m in Sources */,
+				BB25BE9E27869819001D08A1 /* BizBundleTableViewController.m in Sources */,
+				BB65BAD62738F9EA00666D2C /* SiteInfoTableViewController.m in Sources */,
+				BB392A7F279019400023CD75 /* UIDLoginOrRegistViewController.m in Sources */,
+				9FECD769272ABF0B003F547B /* RegisterViewController.m in Sources */,
+				9FF3AD152727A82000C7A2DF /* AppDelegate.m in Sources */,
+				9FECD76A272ABF0B003F547B /* ResetViewController.m in Sources */,
+				9FF3AD262727A82200C7A2DF /* main.m in Sources */,
+				9FBB9F3327328700002187D3 /* AddAppAccessViewController.m in Sources */,
+				9FECD768272ABF0B003F547B /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF3AD272727A82200C7A2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF3AD302727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF3AD312727A82200C7A2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF3AD3A2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITests.m in Sources */,
+				9FF3AD3C2727A82200C7A2DF /* TuyaSmartResidenceSDKSample_iOS_ObjCUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FF3AD2D2727A82200C7A2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF3AD0F2727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC */;
+			targetProxy = 9FF3AD2C2727A82200C7A2DF /* PBXContainerItemProxy */;
+		};
+		9FF3AD372727A82200C7A2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF3AD0F2727A82000C7A2DF /* TuyaSmartResidenceSDKSample-iOS-ObjC */;
+			targetProxy = 9FF3AD362727A82200C7A2DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FECD738272A8195003F547B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FECD739272A8195003F547B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FF3AD492727A8C000C7A2DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF3AD4A2727A8C000C7A2DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FF3AD3D2727A82200C7A2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FF3AD3E2727A82200C7A2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FF3AD402727A82200C7A2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038D0C5BA253CEF3D6E45172 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8N7H4ZLA3;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TuyaSmartResidenceSDKSample-iOS-ObjC/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TuyaSmartResidenceSDKSample-iOS-ObjC/Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "The app needs to access your media library to get music. If you do not allow access, local music cannot be added.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This will allow the app to find and connect Bluetooth accessories. This app may also use Bluetooth to locate Bluetooth device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "To add or use Bluetooth devices, enable Bluetooth on your mobile phone.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The App can use camera to take new profile and to scan QR Code.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "The purpose of the app connecting to the local network: enable pairing and control of the devices connected to the local area network";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please enable location Service to use smart, device timer, weather and time zone information";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please enable location Service to use smart, device timer, weather and time zone information";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please enable location Service to use smart, device timer, weather and time zone information";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your authorization to save pictures and videos in albums.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app requests access to your albums for profile photo uploading.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sr.sample.bizbundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF3AD412727A82200C7A2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BBA6C3C9EFFA6BE8526899 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8N7H4ZLA3;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TuyaSmartResidenceSDKSample-iOS-ObjC/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TuyaSmartResidenceSDKSample-iOS-ObjC/Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "The app needs to access your media library to get music. If you do not allow access, local music cannot be added.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This will allow the app to find and connect Bluetooth accessories. This app may also use Bluetooth to locate Bluetooth device.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "To add or use Bluetooth devices, enable Bluetooth on your mobile phone.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The App can use camera to take new profile and to scan QR Code.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "The purpose of the app connecting to the local network: enable pairing and control of the devices connected to the local area network";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please enable location Service to use smart, device timer, weather and time zone information";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please enable location Service to use smart, device timer, weather and time zone information";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please enable location Service to use smart, device timer, weather and time zone information";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your authorization to save pictures and videos in albums.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app requests access to your albums for profile photo uploading.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sr.sample.bizbundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FF3AD432727A82200C7A2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0111FBB9DB90F73A4D6B9E55 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38WMC42953;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "langming.residence.sample.TuyaSmartResidenceSDKSample-iOS-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuyaSmartResidenceSDKSample-iOS-ObjC.app/TuyaSmartResidenceSDKSample-iOS-ObjC";
+			};
+			name = Debug;
+		};
+		9FF3AD442727A82200C7A2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80C17BBAC6EB9E1A613E279 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38WMC42953;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "langming.residence.sample.TuyaSmartResidenceSDKSample-iOS-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuyaSmartResidenceSDKSample-iOS-ObjC.app/TuyaSmartResidenceSDKSample-iOS-ObjC";
+			};
+			name = Release;
+		};
+		9FF3AD462727A82200C7A2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9409FBDADF34BDAC873A20B4 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU53J7686A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "langming.residence.sample.TuyaSmartResidenceSDKSample-iOS-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+			};
+			name = Debug;
+		};
+		9FF3AD472727A82200C7A2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED65E6FF44E10961CF8A97A2 /* Pods-TuyaSmartResidenceSDKSample-iOS-ObjC-TuyaSmartResidenceSDKSample-iOS-ObjCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38WMC42953;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "langming.residence.sample.TuyaSmartResidenceSDKSample-iOS-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TuyaSmartResidenceSDKSample-iOS-ObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF3AD0B2727A82000C7A2DF /* Build configuration list for PBXProject "TuyaSmartResidenceSDKSample-iOS-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF3AD3D2727A82200C7A2DF /* Debug */,
+				9FF3AD3E2727A82200C7A2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF3AD3F2727A82200C7A2DF /* Build configuration list for PBXNativeTarget "TuyaSmartResidenceSDKSample-iOS-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF3AD402727A82200C7A2DF /* Debug */,
+				9FF3AD412727A82200C7A2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF3AD422727A82200C7A2DF /* Build configuration list for PBXNativeTarget "TuyaSmartResidenceSDKSample-iOS-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF3AD432727A82200C7A2DF /* Debug */,
+				9FF3AD442727A82200C7A2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF3AD452727A82200C7A2DF /* Build configuration list for PBXNativeTarget "TuyaSmartResidenceSDKSample-iOS-ObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF3AD462727A82200C7A2DF /* Debug */,
+				9FF3AD472727A82200C7A2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FF3AD082727A82000C7A2DF /* Project object */;
+}

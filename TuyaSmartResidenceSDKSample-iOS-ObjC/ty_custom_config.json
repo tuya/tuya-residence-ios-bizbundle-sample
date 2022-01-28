@@ -1,0 +1,13 @@
+{
+    "colors":{
+        "themeColor": "#FF5A28",
+    },
+    "config": {
+        "appId": 123456,
+        "appScheme": "",
+        "tyAppKey": "",
+        "hotspotPrefixs": ["SmartLife"],
+        "needBle": true
+    }
+    
+}

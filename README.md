@@ -1,10 +1,10 @@
-# Tuya Smart Residence App SDK and Bizbundle Sample in Objective-C for iOS
+# Tuya Smart Residence App SDK and UI BizBundle Sample in Objective-C for iOS
 
  [English](README.md) | [中文版](README-zh.md)
 
 ---
 
-This sample demonstrates the use of Tuya Smart Residence App SDK to build a smart residence app and how to integrate UI bizbundle. The SDK is divided into several functional modules to give you a clear insight into the implementation of different features, including the user registration process, site management by different users, app access management, and password access management.
+This sample demonstrates the use of Tuya Smart Residence App SDK for iOS to build a smart residence app and how to integrate with the UI BizBundles. The SDK is divided into several functional modules to give you a clear insight into the implementation of different features, including the user registration process, site management by different users, app access management, and password access management.
 
 
 ## Prerequisites
@@ -14,7 +14,7 @@ This sample demonstrates the use of Tuya Smart Residence App SDK to build a smar
 
 ## Use the sample
 
-1. Tuya Smart Residence App SDK and Bizbundle is distributed based on [CocoaPods](http://cocoapods.org/) and other dependencies in this sample. Make sure that you have installed CocoaPods. If not, run the following command to install CocoaPods first:
+1. Tuya Smart Residence App SDK and BizBundles for iOS are distributed based on [CocoaPods](http://cocoapods.org/) and other dependencies in this sample. Make sure that you have installed CocoaPods. If not, run the following command to install CocoaPods first:
 
     ```bash
     sudo gem install cocoapods
@@ -55,4 +55,4 @@ This sample demonstrates the use of Tuya Smart Residence App SDK to build a smar
 **Note**: The bundle ID, AppKey, AppSecret, and security image must be the same as those used for your app on the [Tuya IoT Development Platform](https://iot.tuya.com). Otherwise, API requests in the sample will fail.
 
 ## References
-For more information about Tuya Smart Residence App SDK, see [App SDK](https://developer.tuya.com/en/docs/app-development/saas-smart-residence-ios?id=Kb3npxylwo4dm).
+For more information about Tuya Smart Residence App SDK, see [Smart Residence App SDK for iOS](https://developer.tuya.com/en/docs/app-development/saas-smart-residence-ios?id=Kb3npxylwo4dm).

@@ -1,4 +1,4 @@
-# 涂鸦 智慧居住 App SDK 和 BizBundle iOS 版示例
+# 涂鸦 智慧居住 App SDK 和 UI 业务包 iOS 版示例
 
 [中文版](README-zh.md) | [English](README.md)
 
@@ -14,7 +14,7 @@
 
 ## 运行示例
 
-1. 智慧居住 App SDK 和 BizBundle iOS 版 通过 [CocoaPods](http://cocoapods.org/) 进行集成。您需要安装 CocoaPods 才能运行本示例。如果你没有安装 CocoaPods，可以通过以下命令安装 CocoaPods:
+1. 智慧居住 App SDK 和 UI 业务包 iOS 版 通过 [CocoaPods](http://cocoapods.org/) 进行集成。您需要安装 CocoaPods 才能运行本示例。如果你没有安装 CocoaPods，可以通过以下命令安装 CocoaPods:
 
     ```bash
     sudo gem install cocoapods
